@@ -2676,7 +2676,21 @@ Scene_Gameover.prototype.playGameoverMusic = function() {
 
 Scene_Gameover.prototype.createBackground = function() {
     this._backSprite = new Sprite();
-    this._backSprite.bitmap = ImageManager.loadSystem('GameOver');
+    //¸ù¾ÝËÀÍöÎ»ÖÃ¸ü»»±³¾°Í¼
+    switch ($gameMap.mapId()) {
+        case 28: this._backSprite.bitmap = ImageManager.loadSystem('GameOver1');
+            break;
+        case 29: this._backSprite.bitmap = ImageManager.loadSystem('GameOver2');
+            break;
+        case 30: this._backSprite.bitmap = ImageManager.loadSystem('GameOver3');
+            break;
+        case 31: this._backSprite.bitmap = ImageManager.loadSystem('GameOver4');
+            break;
+        case 32: this._backSprite.bitmap = ImageManager.loadSystem('GameOver5');
+            break;
+        default: this._backSprite.bitmap = ImageManager.loadSystem('GameOver');
+    }
+    //this._backSprite.bitmap = ImageManager.loadSystem('GameOver');
     this.addChild(this._backSprite);
 };
 

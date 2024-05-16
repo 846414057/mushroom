@@ -3013,16 +3013,16 @@ Input.keyMapper = {
     38: 'up',       // up arrow
     39: 'right',    // right arrow
     40: 'down',     // down arrow
-    45: 'escape',   // insert
+    8: 'escape',    //backspace     //45: 'escape',   // insert
     81: 'pageup',   // Q
     87: 'pagedown', // W
     88: 'escape',   // X
     90: 'ok',       // Z
-    96: 'escape',   // numpad 0
-    98: 'down',     // numpad 2
-    100: 'left',    // numpad 4
-    102: 'right',   // numpad 6
-    104: 'up',      // numpad 8
+    //96: 'escape',   // numpad 0
+    83: 'down',     //S      //98: 'down',     // numpad 2
+    65: 'left',     //A      //100: 'left',    // numpad 4
+    68: 'right',    //D      //102: 'right',   // numpad 6
+    87: 'up',       //W      //104: 'up',      // numpad 8
     120: 'debug'    // F9
 };
 

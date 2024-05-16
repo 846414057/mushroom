@@ -1,5 +1,15 @@
 [
 null,
-{"id":1,"battlerName":"","characterIndex":1,"characterName":"People1","classId":1,"equips":[],"faceIndex":1,"faceName":"People1","traits":[],"initialLevel":1,"maxLevel":1,"name":"主角","nickname":"","note":"","profile":""},
-{"id":2,"battlerName":"","characterIndex":0,"characterName":"!$xiaozi","classId":1,"equips":[],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"测试角色","nickname":"","note":"","profile":""}
+{"id":1,"battlerName":"","characterIndex":0,"characterName":"!$xiaozinew","classId":1,"equips":[],"faceIndex":4,"faceName":"mogutouxiang","traits":[],"initialLevel":1,"maxLevel":1,"name":"美贞","nickname":"普通","note":"","profile":""},
+{"id":2,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[],"faceIndex":5,"faceName":"mogutouxiang","traits":[],"initialLevel":1,"maxLevel":1,"name":"美贞","nickname":"惊讶","note":"","profile":""},
+{"id":3,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":6,"faceName":"mogutouxiang","traits":[],"initialLevel":1,"maxLevel":1,"name":"美贞","nickname":"思考","note":"","profile":""},
+{"id":4,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"mogutouxiang","traits":[],"initialLevel":1,"maxLevel":1,"name":"蘑菇小子","nickname":"","note":"","profile":""},
+{"id":5,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":1,"faceName":"mogutouxiang","traits":[],"initialLevel":1,"maxLevel":1,"name":"眼镜蘑菇","nickname":"","note":"","profile":""},
+{"id":6,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":2,"faceName":"mogutouxiang","traits":[],"initialLevel":1,"maxLevel":1,"name":"蘑菇大哥","nickname":"","note":"","profile":""},
+{"id":7,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":3,"faceName":"mogutouxiang","traits":[],"initialLevel":1,"maxLevel":1,"name":"蘑菇肥仔","nickname":"","note":"","profile":""},
+{"id":8,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":7,"faceName":"mogutouxiang","traits":[],"initialLevel":1,"maxLevel":1,"name":"蘑菇小弟","nickname":"","note":"","profile":""},
+{"id":9,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":8,"faceName":"mogutouxiang","traits":[],"initialLevel":1,"maxLevel":1,"name":"小蘑菇","nickname":"","note":"","profile":""},
+{"id":10,"battlerName":"","characterIndex":0,"characterName":"$MonsterWalk%(4)","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":1,"name":"多眼仔","nickname":"","note":"","profile":""},
+{"id":11,"battlerName":"","characterIndex":0,"characterName":"!$Monster1234","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"多眼仔苏醒1234","nickname":"","note":"","profile":""},
+{"id":12,"battlerName":"","characterIndex":0,"characterName":"!$Monster56","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"多眼仔苏醒56","nickname":"","note":"","profile":""}
 ]

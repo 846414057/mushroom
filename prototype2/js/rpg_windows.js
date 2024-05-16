@@ -586,11 +586,11 @@ Window_Base.prototype.drawActorSimpleStatus = function(actor, x, y, width) {
     var x2 = x + 180;
     var width2 = Math.min(200, width - 180 - this.textPadding());
     this.drawActorName(actor, x, y);
-    this.drawActorLevel(actor, x, y + lineHeight * 1);
+    //this.drawActorLevel(actor, x, y + lineHeight * 1);
     this.drawActorIcons(actor, x, y + lineHeight * 2);
-    this.drawActorClass(actor, x2, y);
-    this.drawActorHp(actor, x2, y + lineHeight * 1, width2);
-    this.drawActorMp(actor, x2, y + lineHeight * 2, width2);
+    //this.drawActorClass(actor, x2, y);
+    //this.drawActorHp(actor, x2, y + lineHeight * 1, width2);
+    //this.drawActorMp(actor, x2, y + lineHeight * 2, width2);
 };
 
 Window_Base.prototype.drawItemName = function(item, x, y, width) {
@@ -1587,8 +1587,10 @@ Window_MenuCommand.prototype.makeCommandList = function() {
     this.addMainCommands();
     this.addFormationCommand();
     this.addOriginalCommands();
-    this.addOptionsCommand();
+    //this.addOptionsCommand();
     this.addSaveCommand();
+    //绘制假的设置按钮
+    this.addFakeOptionsCommand();
     this.addGameEndCommand();
 };
 
@@ -1622,6 +1624,14 @@ Window_MenuCommand.prototype.addOptionsCommand = function() {
     if (this.needsCommand('options')) {
         var enabled = this.isOptionsEnabled();
         this.addCommand(TextManager.options, 'options', enabled);
+    }
+};
+
+//绘制一个假的设置按钮，功能相同，但是文本文字来自skill
+Window_MenuCommand.prototype.addFakeOptionsCommand = function () {
+    if (this.needsCommand('options')) {
+        var enabled = this.isOptionsEnabled();
+        this.addCommand(TextManager.skill, 'options', enabled);
     }
 };
 
@@ -1923,7 +1933,8 @@ Window_ItemList.prototype.setCategory = function(category) {
 };
 
 Window_ItemList.prototype.maxCols = function() {
-    return 2;
+    //return 2;
+    return 1;
 };
 
 Window_ItemList.prototype.spacing = function() {
@@ -1988,7 +1999,7 @@ Window_ItemList.prototype.drawItem = function(index) {
         rect.width -= this.textPadding();
         this.changePaintOpacity(this.isEnabled(item));
         this.drawItemName(item, rect.x, rect.y, rect.width - numberWidth);
-        this.drawItemNumber(item, rect.x, rect.y, rect.width);
+        //this.drawItemNumber(item, rect.x, rect.y, rect.width);
         this.changePaintOpacity(1);
     }
 };
@@ -2808,7 +2819,7 @@ Window_SavefileList.prototype.maxItems = function() {
 };
 
 Window_SavefileList.prototype.maxVisibleItems = function() {
-    return 5;
+    return 3;
 };
 
 Window_SavefileList.prototype.itemHeight = function() {
